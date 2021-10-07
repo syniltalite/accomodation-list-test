@@ -67,7 +67,9 @@ Using the service you develop the frontend application shall enable the user to 
 * go to project root folder
 * go to backend folder ``` cd backend ```
 * make sure port 8001 is available
+* run composer install ``` composer install ```
 * run laravel sail up ``` ./vendor/bin/sail up -d```
+
 
 #### Frontend 
 * open terminal
@@ -75,11 +77,13 @@ Using the service you develop the frontend application shall enable the user to 
 * go to frontend folder  ``` cd frontend ```
 * run docker compose and build  ``` docker-compose up -d --build ```
 * go to browser and open  ``` http://localhost:8081/ ```
+* ssh in docker frontend ``` docker-compose exec accomodation-list-fe /bin/bash ```
+* run npm install ``` npm install ```
 
 #### Framework / Folder structure
 ```
 .
-├── mapmyplan
+├── accomodation-list-test
     ├── frontend # root folder for vuejs application
         ├──node_modules #npm packages
         ├──public # static files for frontend app
