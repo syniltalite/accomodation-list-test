@@ -3,31 +3,53 @@ Application for listing accomodations with suburb and area filter for Sydney Aus
 
 ## Implementation Requirements
 * Build a single page application that uses data provided from the [ATDW Atlas API](https://developer.atdw.com.au/ATDWO-api.html) to list accommodation options in Sydney only. <br/>
-Using the service you develop the frontend application shall enable the user to filter results by areas and suburbs as defined by the ATDW API.<br/>
+Using the service you develop the frontend application shall enable the user to filter results by areas and suburbs as defined by the ATDW API.
+
 ✅ built a laravel endpoint to collect data from ATDW Atlas API to display products, list suburbs and areas
+
 * Filter by Area within Sydney
+
 ✅ Application dropdown to show Areas within Sydney and filter product results
+
 * Filter by Suburb/City within Sydney
+
 ✅ Application dropdown to show Suburbs/City within Sydney and filter product results
+
 * The service must be written in PHP7.
+
 ✅ Project is using latest PHP7 version with Laravel Sail(Dockerized)
+
 * The PHP code must use composer to manage any dependencies.
+
 ✅ Project is using composer combined together in Laravel Sail
+
 * Although it is overkill [Guzzle](https://docs.guzzlephp.org/en/stable/) must be used.
+
 ✅ Using laravel http client which uses guzzle from the background and axios for vuejs to call backed endpoint
+
 * Data fetched from ATDW must be in the JSON format.
+
 ✅ Using the out=json parameter from the endpoint,the results was encoded in utf-16le which was converted to utf-8
+
 * Responses from the service created must be handled in JSON
+
 ✅ All laravel API endpoint response is in JSON format
+
 * The frontend must be developed using Vue JS (you can use vue-cli or webpack).
+
 ✅ Using Vue.js 3.x and tailwind css to run frontend application
+
 * The frontend must be developed using Vue JS (you can use vue-cli or webpack).
+
 ✅ Using Vue.js 3.x and tailwind css to run frontend application
 
 ## Bonus Requirement
 * Develop docker-compose file to run application.
+
 ✅ running 2 separate docker-compose.yml for frontend and backend
+
 * TailwindJS.
+
 ✅ using Tailwind CSS
 
 
