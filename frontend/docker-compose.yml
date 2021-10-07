@@ -2,8 +2,8 @@ version: '3.7'
 
 services:
 
-  map-my-plan-fe:
-    container_name: map-my-plan-fe
+  accomodation-list-fe:
+    container_name: accomodation-list-fe
     build:
       context: .
       dockerfile: Dockerfile
