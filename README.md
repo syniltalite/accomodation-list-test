@@ -77,8 +77,6 @@ Using the service you develop the frontend application shall enable the user to 
 * go to frontend folder  ``` cd frontend ```
 * run docker compose and build  ``` docker-compose up -d --build ```
 * go to browser and open  ``` http://localhost:8081/ ```
-* ssh in docker frontend ``` docker-compose exec accomodation-list-fe /bin/bash ```
-* run npm install ``` npm install ```
 
 #### Framework / Folder structure
 ```
