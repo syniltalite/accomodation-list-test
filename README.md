@@ -55,7 +55,7 @@ Using the service you develop the frontend application shall enable the user to 
 
 ### Pre-requisites / Assumptions
 * [Node.js](https://nodejs.org/en/download/) has been installed on the machine
-* [Composer](https://getcomposer.org/download/) had been install on the machine
+* [Composer](https://getcomposer.org/download/) has been installed on the machine
 * To Do list [TODO](#tech-debt)
 * Runs on [Localhost:8081](http://localhost:8081) for vue.js frontend
 * Runs on [Localhost:8001](http://localhost:8001) for laravel backend
@@ -97,7 +97,7 @@ Using the service you develop the frontend application shall enable the user to 
         ├──resources # containes views css and js files
         ├──routes # containes views css and js files
         ├──storage # files for routing using web or api endpoints
-        ├──tests # containes unit and feature test scripts
+        ├──tests # contains unit and feature test scripts
         └──vendor # composer packages
 ```
 ### Tech debt
