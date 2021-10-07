@@ -39,10 +39,6 @@ Using the service you develop the frontend application shall enable the user to 
 
 ✅ Using Vue.js 3.x and tailwind css to run frontend application
 
-* The frontend must be developed using Vue JS (you can use vue-cli or webpack).
-
-✅ Using Vue.js 3.x and tailwind css to run frontend application
-
 ## Bonus Requirement
 * Develop docker-compose file to run application.
 
