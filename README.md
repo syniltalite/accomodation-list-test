@@ -94,8 +94,8 @@ Using the service you develop the frontend application shall enable the user to 
         ├──config # configuration folders for laravel
         ├──database # folder for migration factories and seeders
         ├──public # folder for static files
-        ├──resources # contains views css and js files
-        ├──routes # contains views css and js files
+        ├──resources # containes views css and js files
+        ├──routes # containes views css and js files
         ├──storage # files for routing using web or api endpoints
         ├──tests # contains unit and feature test scripts
         └──vendor # composer packages
